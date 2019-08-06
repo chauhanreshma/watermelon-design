@@ -5,15 +5,44 @@ html, body {
 }
 
 .wm-container {
-    width: 150px;
+    width: 280px;
     position: absolute;
-    
+    left: 0;
+    right: 0;
+    top: 250px;
+    bottom: 0;
+    margin: auto;
 }
 
 .wm {
     background-color: #43c29e;
-    width: 150px;
-    height: 80px;
-    border-radius: 0 0 75px 75px;
+    width: 280px;
+    height: 150px;
+    border-radius: 0 0 201px 201px;
     position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.wm::before {
+    content: '';
+    width: 261px;
+    height: 141px;
+    background-color: #7dd5bc;
+    border-radius: 0 0 195px 195px;
+    z-index: 1;
+    display: block;
+    margin-left: 9px;
+}
+.wm::after {
+    content: '';
+    width: 245px;
+    height: 133px;
+    background-color: #ec5e64;
+    border-radius: 0 0 190px 190px;
+    z-index: 1;
+    display: block;
+    margin-left: 17px;
+    position: absolute;
+    top: 0;
 }
