@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wm-container {
+    width: 150px;
+    position: absolute;
+    
+}
+
+.wm {
+    background-color: #43c29e;
+    width: 150px;
+    height: 80px;
+    border-radius: 0 0 75px 75px;
+    position: relative;
+}
