@@ -46,3 +46,28 @@ html, body {
     position: absolute;
     top: 0;
 }
+.seed-container{
+    display: block;
+    width: 68%;
+    height: 47%;
+    position: relative;
+    top: 0;
+    left: 45px;
+    text-align: center;
+    z-index: 1000;
+    margin-top: -120px;
+}
+.seed{
+    display: inline-block;
+    /*width: 6px;*/
+    /*height: 10px;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background-color: black;*/
+    margin: 0 5px 0 5px;
+    /*border-radius: 3px 3px 3px 3px;*/
+
+}
+.seed2{
+    padding-top: 15px;
+}
